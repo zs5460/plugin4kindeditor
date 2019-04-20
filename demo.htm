@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8"/>
+<title>demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="http://kindeditor.net/ke4/themes/default/default.css" />
+<link rel="stylesheet" href="plugin.css" />
+
+</head>
+<body>
+<div class="g-doc f-ff1">
+<textarea name="demo" id="demo">
+<img src="fake.jpg">
+<br>
+
+	  这里是图片说明
+
+<p>
+aaa
+然后，这里上一大段文字。
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<strong>中间空了很多行。。。</strong>
+<br><br><br><br><br><br><br>
+                             aaa这段的前后有很多没用的空格                                        
+				
+
+</textarea>
+	
+</div>
+<script src="http://kindeditor.net/ke4/kindeditor-all-min.js"></script>
+<script src="plugin.js"></script>
+<script>
+// 修改默认配置
+var options = {
+    width : '720px',
+    height : '640px',
+    items : ['source', '|', 'autoFormat', 'findReplace', 'about']
+};
+
+var editor;
+KindEditor.ready(function(K) {
+    editor = KindEditor.create('#demo', options);
+});
+
+
+</script>
+</body>
+</html>
