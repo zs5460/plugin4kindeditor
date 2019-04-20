@@ -1,0 +1,1 @@
+# plugin4kindeditor
