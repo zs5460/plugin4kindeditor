@@ -1,20 +1,20 @@
 # plugin4kindeditor
 
-## 说明
-kindeditor是我最喜欢的可视化编辑器，不过缺少“自动排版”和“查找替换”功能，于是抽空做了这个插件，喜欢的话就拿去用吧。
+## Description
+Kindeditor is my favorite visual editor, but lacks the "automatic typesetting" and "find and replace" functions, so I took the time to make this plugin, if you like it, use it.
 
-## 使用方法
+## Instructions
 
-在页面引入css
+Introducing css on the page
 ```html
 <link rel="stylesheet" href="plugin.css" />
 ```
 
-在页面引用插件JS
+Reference plugin JS on the page
 ```html
 <script src="plugin.js"></script>
 ```
-初始化
+Initialization
 ```javascript
 var options = {
     items : ['source', '|', 'autoFormat', 'findReplace', 'about']
